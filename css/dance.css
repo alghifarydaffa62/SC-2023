@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(180deg, #5C258D 0%, rgba(67, 137, 162, 0.84) 100%);
+    background-attachment: fixed;
+}
+.jumbotron img {
+    width: 380px;
+    height: 380px;
+    display: block;
+    margin: auto;
+}
+.jumbotron h3 {
+    color: #00FFF0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+.jumbotron h5 {
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.jumbotron p {
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.button {
+    display: flex;
+    align-items: center;
+}
+.form {
+    width: 90px;
+    height: 57px;
+    background: #75FFEE;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+}
+.form a {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.Juknis {
+    width: 170px;
+    height: 57px;
+    background: #75FFEE;
+    border-radius: 8px;
+    text-align: center;
+}
+.Juknis a {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
