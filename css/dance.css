@@ -10,8 +10,8 @@ body {
     background-attachment: fixed;
 }
 .jumbotron img {
-    width: 380px;
-    height: 380px;
+    width: 300px;
+    height: 300px;
     display: block;
     margin: auto;
 }
@@ -33,33 +33,43 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
-.button {
-    display: flex;
-    align-items: center;
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
 }
-.form {
-    width: 90px;
-    height: 57px;
-    background: #75FFEE;
-    border-radius: 8px;
-    text-align: center;
-    align-items: center;
-}
-.form a {
-    color: black;
-    font-family: 'Inter', sans-serif;
+.link a {
     text-decoration: none;
-    margin-top: 30px;
-}
-.Juknis {
-    width: 170px;
-    height: 57px;
-    background: #75FFEE;
-    border-radius: 8px;
-    text-align: center;
-}
-.Juknis a {
-    color: black;
+    display: block;
+    color: white;
     font-family: 'Inter', sans-serif;
+}
+.info h5 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.follow h5 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.creator a{
     text-decoration: none;
+    display: block;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.creator h5 {
+    color: white;
+    font-weight: 500;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.sosmed img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
