@@ -112,7 +112,10 @@ body {
     justify-content: space-evenly;
     margin-bottom: 50px;
 }
-
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
 .logo img {
     width: 60px;
     height: 60px;
@@ -154,3 +157,34 @@ body {
     margin-right: 10px;
 }
 
+@media only screen and (max-width:768px) {
+    .about {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+    }
+    .row2 {
+        display: block;
+        text-align: center;
+    }
+    .row3 {
+        display: block;
+        text-align: center;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .logo {
+        margin-bottom: 30px;
+    }
+    .info {
+        margin-bottom: 30px;
+    }
+    .follow {
+        margin-bottom: 30px;
+    }
+    .creator {
+        margin-bottom: 30px;
+    }
+}

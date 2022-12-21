@@ -14,8 +14,8 @@ body {
     background-attachment: fixed;
 }
 .jumbotron img {
-    width: 380px;
-    height: 380px;
+    width: 300px;
+    height: 300px;
     display: block;
     margin: auto;
 }
@@ -69,12 +69,14 @@ body {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
-
+.button {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
 .footer {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 30px; 
 }
 
  .info h5 {
@@ -136,10 +138,40 @@ body {
 .about-reverse {
     display: flex;
     flex-direction: row-reverse;
+    text-align: right;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 90px;
     margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        display: block;
+        text-align: center;
+        font-size: 13px;
+    }
+    .about-reverse {
+        display: block;
+        text-align: center;
+        font-size: 13px;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .logo {
+        margin-bottom: 30px;
+    }
+    .info {
+        margin-bottom: 30px;
+    }
+    .follow {
+        margin-bottom: 30px;
+    }
+    .creator {
+        margin-bottom: 30px;
+    }
 }
 
     
