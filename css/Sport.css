@@ -9,45 +9,23 @@ body {
     background: linear-gradient(180deg, #5C258D 0%, rgba(67, 137, 162, 0.84) 100%);
     background-attachment: fixed;
 }
-.title h5{
-    color: white;
+.jumbotron img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+.jumbotron h3 {
+    color: #00FFF0;
     text-align: center;
-    margin-top: 60px;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
 }
-.countdown {
+.jumbotron p {
+    color: white;
     text-align: center;
-}
-.time {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-}
-.box1 h6 {
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    padding-top: 15px;
-    color: white;
-}
-
-.box2 h6{
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    padding-top: 15px;
-    color: white;
-}
-.box3 h6 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    padding-top: 15px;
-    color: white;
-}
-.box4 h6 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    padding-top: 15px;
-    color: white;
+    font-weight: 400;
 }
 .about {
     display: flex;
@@ -56,65 +34,27 @@ body {
     margin-top: 90px;
     margin-bottom: 60px;
 }
-.desc {
-    color: white;
-}
-.desc h2 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-}
-.desc p {
-    font-family: 'Inter', sans-serif;
-}
-.lomba h4{
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    color: white;
-    font-weight: 600;
-}
-.lomba hr {
-    width: 1220px;
-    color: white;
-}
-.row2 img {
-    width: 200px;
-    height: 200px;
-    transition: all 0.5s ease-out;
-}
-.row3 img {
-    width: 200px;
-    height: 200px;
-    transition: all 0.5s ease-out;
-}
-.row2 {
+.about-reverse {
     display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 90px;
+    margin-bottom: 60px;
 }
-.row3 {
+.cp {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
+}
+.smp {
+    margin-right: 40px;
 }
 .footer {
     display: flex;
     justify-content: space-evenly;
 }
-.logo img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 15px;
-}
-.link a {
-    text-decoration: none;
-    display: block;
-    color: white;
-    font-family: 'Inter', sans-serif;
-}
-.info h5 {
+
+ .info h5 {
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -138,31 +78,48 @@ body {
     color: white;
     font-family: 'Inter', sans-serif;
 }
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.link a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
 .sosmed img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
-.row2 img:hover {
-    width: 220px;
-    height: 220px;
+.icon{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-right: 10px;
 }
-.row3 img:hover {
-    width: 220px;
-    height: 220px;
-}
-@media only screen and (max-width:768px) {
+
+@media only screen and (max-width: 768px) {
+    .jumbotron p {
+        font-size: 12px;
+    }
     .about {
         display: block;
         text-align: center;
-        font-size: 14px;
+        font-size: 13px;
     }
-    .row2 {
+    .about-reverse {
         display: block;
         text-align: center;
+        font-size: 13px;
     }
-    .row3 {
+    .cp {
         display: block;
+    }
+    .smp {
+        margin-bottom: 30px;
         text-align: center;
     }
     .footer {
@@ -182,3 +139,4 @@ body {
         margin-bottom: 30px;
     }
 }
+
