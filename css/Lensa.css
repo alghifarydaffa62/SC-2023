@@ -5,10 +5,6 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
-
-html {
-    scroll-behavior: smooth;
-}
 body {
     background: linear-gradient(180deg, #5C258D 0%, rgba(67, 137, 162, 0.84) 100%);
     background-attachment: fixed;
@@ -25,55 +21,32 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 800;
 }
-.jumbotron h5 {
-    color: white;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-}
 .jumbotron p {
     color: white;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
-.button {
+.about {
     display: flex;
-    justify-content:center;
-    align-content: center;
-}
-.form {
-    width: 90px;
-    height: 57px;
-    background: #75FFEE;
-    border-radius: 8px;
-    text-align: center;
     align-items: center;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-bottom: 60px;
 }
-.form a {
-    color: black;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    margin-top: 30px;
-}
-.Juknis {
-    width: 170px;
-    height: 57px;
-    background: #75FFEE;
-    border-radius: 8px;
-    text-align: center;
-}
-.Juknis a {
-    color: black;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
+.about-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-bottom: 60px;
 }
 
 .footer {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 30px; 
-    margin-top: 60px;
 }
 
  .info h5 {
@@ -121,28 +94,6 @@ body {
     height: 200px;
     position: relative;
     margin-right: 10px;
-
-}
-    
-.about {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 90px;
-    margin-bottom: 60px;
-}
-
-.about-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: right;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 90px;
-    margin-bottom: 60px;
-}
-.copyright{
-    color: white;
 }
 
 @media only screen and (max-width: 768px) {
