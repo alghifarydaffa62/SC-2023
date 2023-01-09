@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     color: white;
     text-align: center;
     margin-top: 60px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-weight: 800;
 }
 .countdown {
@@ -24,30 +24,54 @@ body {
     justify-content: space-evenly;
     margin-top: 50px;
 }
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #E3FDFF;
+    border-radius: 8px;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #E3FDFF;
+    border-radius: 8px;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: #E3FDFF;
+    border-radius: 8px;
+}
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: #E3FDFF;
+    border-radius: 8px;
+}
 .box1 h6 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-weight: 700;
     padding-top: 15px;
-    color: white;
+    color: black;
 }
 
 .box2 h6{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-weight: 700;
     padding-top: 15px;
-    color: white;
+    color: black;
 }
 .box3 h6 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-weight: 700;
     padding-top: 15px;
-    color: white;
+    color: black;
 }
 .box4 h6 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-weight: 700;
     padding-top: 15px;
-    color: white;
+    color: black;
 }
 .about {
     display: flex;
@@ -60,15 +84,15 @@ body {
     color: white;
 }
 .desc h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-weight: 600;
     letter-spacing: 0.1em;
 }
 .desc p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
 }
 .lomba h4{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     text-align: center;
     color: white;
     font-weight: 600;
@@ -112,17 +136,17 @@ body {
     text-decoration: none;
     display: block;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
 }
 .info h5 {
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-weight: 500;
     margin-bottom: 20px;
 }
 .follow h5 {
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -130,13 +154,13 @@ body {
     text-decoration: none;
     display: block;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
 }
 .creator h5 {
     color: white;
     font-weight: 500;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
 }
 .sosmed img {
     width: 30px;
@@ -167,7 +191,8 @@ body {
     }
     .footer {
         display: block;
-        text-align: center;
+        text-align: left;
+        margin-left: 40px;
     }
     .logo {
         margin-bottom: 30px;
