@@ -21,34 +21,42 @@ body {
     font-family: 'Philosopher', sans-serif;
     font-weight: 800;
 }
-.jumbotron h5 {
-    color: white;
-    text-align: center;
-    font-family: 'Philosopher', sans-serif;
-    font-weight: 600;
-}
 .jumbotron p {
     color: white;
     text-align: center;
     font-family: 'Philosopher', sans-serif;
     font-weight: 400;
 }
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    font-family: 'Philosopher', sans-serif;
+}
+.about-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    font-family: 'Philosopher', sans-serif;
+}
+.cp {
+    display: flex;
+}
+.smp {
+    margin-right: 40px;
+}
 .footer {
     display: flex;
     justify-content: space-evenly;
 }
-.logo img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 15px;
-}
-.link a {
-    text-decoration: none;
-    display: block;
-    color: white;
-    font-family: 'Philosopher', sans-serif;
-}
-.info h5 {
+
+ .info h5 {
     color: white;
     font-family: 'Philosopher', sans-serif;
     font-weight: 500;
@@ -72,15 +80,49 @@ body {
     color: white;
     font-family: 'Philosopher', sans-serif;
 }
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.link a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+}
 .sosmed img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
+.icon{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-right: 10px;
+}
 
 @media only screen and (max-width: 768px) {
     .jumbotron p {
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .about {
+        display: block;
+        text-align: center;
+        font-size: 13px;
+    }
+    .about-reverse {
+        display: block;
+        text-align: center;
+        font-size: 13px;
+    }
+    .cp {
+        display: block;
+    }
+    .smp {
+        margin-bottom: 30px;
+        text-align: center;
     }
     .footer {
         display: block;
@@ -100,3 +142,4 @@ body {
         margin-bottom: 30px;
     }
 }
+
