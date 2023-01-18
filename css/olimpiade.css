@@ -130,6 +130,17 @@ body {
         text-align: center;
         font-size: 13px;
     }
+    .container p {
+        text-align: left;
+        margin-left: 40px;
+    }
+    .desc p {
+        text-align: left;
+        margin-left: 40px;
+    }
+    hr {
+        width: 150px;
+    }
     .about-reverse {
         display: block;
         text-align: center;

@@ -80,7 +80,15 @@ body {
 
 @media only screen and (max-width: 768px) {
     .jumbotron p {
-        font-size: 14px;
+        font-size: 13px;
+        text-align: left;
+        margin-left: 40px;
+    }
+    #contact {
+        text-align: center;
+    }
+    hr {
+        width: 150px;
     }
     .footer {
         display: block;
