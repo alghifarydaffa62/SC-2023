@@ -107,6 +107,9 @@ body {
     .jumbotron p {
         font-size: 12px;
     }
+    hr {
+        width: 400px;
+    }
     .about {
         display: block;
         text-align: center;

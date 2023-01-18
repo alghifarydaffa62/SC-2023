@@ -82,6 +82,9 @@ body {
     .jumbotron p {
         font-size: 14px;
     }
+    hr {
+        width: 400px;
+    }
     .footer {
         display: block;
         text-align: left;

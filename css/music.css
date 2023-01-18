@@ -151,6 +151,9 @@ body {
         text-align: center;
         font-size: 13px;
     }
+    hr {
+        width: 400px;
+    }
     .about-reverse {
         display: block;
         text-align: center;

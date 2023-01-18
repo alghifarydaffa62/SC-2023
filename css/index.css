@@ -25,25 +25,25 @@ body {
     margin-top: 50px;
 }
 .box1 {
-    width: 100px;
+    width: 80px;
     height: 100px;
     background-color: #E3FDFF;
     border-radius: 8px;
 }
 .box2 {
-    width: 100px;
+    width: 80px;
     height: 100px;
     background-color: #E3FDFF;
     border-radius: 8px;
 }
 .box3 {
-    width: 100px;
+    width: 80px;
     height: 100px;
     background-color: #E3FDFF;
     border-radius: 8px;
 }
 .box4 {
-    width: 100px;
+    width: 80px;
     height: 100px;
     background-color: #E3FDFF;
     border-radius: 8px;
@@ -180,6 +180,9 @@ body {
         display: block;
         text-align: center;
         font-size: 14px;
+    }
+    hr {
+        width: 400px;
     }
     .row2 {
         display: block;
