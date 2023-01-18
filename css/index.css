@@ -179,10 +179,14 @@ body {
     .about {
         display: block;
         text-align: center;
-        font-size: 14px;
+        font-size: 13px;
+    }
+    .desc p {
+        text-align: left;
+        margin-left: 40px;
     }
     hr {
-        width: 400px;
+        width: 150px;
     }
     .row2 {
         display: block;
