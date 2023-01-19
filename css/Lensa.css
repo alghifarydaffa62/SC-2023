@@ -102,7 +102,7 @@ body {
     .about {
         display: block;
         text-align: center;
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .jumbotron p {
         text-align: center;
@@ -117,7 +117,7 @@ body {
     .about-reverse {
         display: block;
         text-align: center;
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .footer {
         display: block;
