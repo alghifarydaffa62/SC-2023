@@ -180,11 +180,11 @@ body {
     .about {
         display: block;
         text-align: center;
-        font-size: 13px;
+        font-size: 12px;
     }
     .desc p {
         text-align: center;
-        font-size: 2vw;
+        font-size: 3vw;
     }
     hr {
         width: 200px;
