@@ -106,16 +106,15 @@ body {
 
 @media only screen and (max-width: 768px) {
     .jumbotron p {
-        font-size: 12px;
-        text-align: left;
-        margin-left: 40px;
+        font-size: 2vw;
+        text-align: center;
     }
     .desc p {
-        text-align: left;
-        margin-left: 40px;
+        text-align: center;
+        font-size: 2vw;
     }
     hr {
-        width: 150px;
+        width: 200px;
     }
     .about {
         display: block;
@@ -129,6 +128,7 @@ body {
     }
     .cp {
         display: block;
+        align-items: center;
     }
     .smp {
         margin-bottom: 30px;

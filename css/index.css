@@ -90,6 +90,7 @@ body {
 }
 .desc p {
     font-family: 'Philosopher', sans-serif;
+    text-align: justify;
 }
 .lomba h4{
     font-family: 'Philosopher', sans-serif;
@@ -182,11 +183,11 @@ body {
         font-size: 13px;
     }
     .desc p {
-        text-align: left;
-        margin-left: 40px;
+        text-align: center;
+        font-size: 2vw;
     }
     hr {
-        width: 150px;
+        width: 200px;
     }
     .row2 {
         display: block;
