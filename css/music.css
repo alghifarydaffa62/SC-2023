@@ -149,7 +149,7 @@ body {
     .about {
         display: block;
         text-align: center;
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .desc p {
         text-align: center;
@@ -160,11 +160,6 @@ body {
     }
     hr {
         width: 200px;
-    }
-    .about-reverse {
-        display: block;
-        text-align: center;
-        font-size: 3vw;
     }
     .footer {
         display: block;
