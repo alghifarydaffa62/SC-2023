@@ -182,9 +182,8 @@ body {
         text-align: center;
     }
     .desc p {
-        text-align: left;
-        font-size: 12px;
-        margin-left: 40px
+        text-align: center;
+        font-size: 2.5vw;
     }
     hr {
         width: 200px;
